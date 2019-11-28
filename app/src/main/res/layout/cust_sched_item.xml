@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:maxLines="1"
+            android:layout_toStartOf="@+id/text_view_service_type_name"
+            android:layout_toLeftOf="@+id/text_view_service_type_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/text_view_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_name"
+            android:text="Street"/>
+
+        <TextView
+            android:id="@+id/text_view_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_street"
+            android:text="City"/>
+
+        <TextView
+            android:id="@+id/text_view_bday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_city"
+            android:text="Birthday"/>
+
+        <TextView
+            android:id="@+id/text_view_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_bday"
+            android:text="Gender"/>
+
+        <TextView
+            android:id="@+id/text_view_service_type_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Service Type"/>
+
+        <TextView
+            android:id="@+id/text_view_start_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/text_view_service_type_name"
+            android:text="Start Date Time"/>
+
+        <TextView
+            android:id="@+id/text_view_actual_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_start_date_time"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Duration"/>
+
+        <TextView
+            android:id="@+id/text_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_actual_duration"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Status"/>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_status"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

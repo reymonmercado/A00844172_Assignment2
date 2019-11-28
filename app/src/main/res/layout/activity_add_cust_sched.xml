@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEditCustSchedActivity">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_text_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_bday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birthday"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_service_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Type"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_start_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date Time"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:inputType="text"/>
+
+</LinearLayout>
